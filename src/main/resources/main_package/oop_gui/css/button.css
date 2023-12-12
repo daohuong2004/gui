@@ -1,0 +1,38 @@
+.button {
+    -fx-max-width: infinity;
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-background-radius: 5px;
+    -fx-background-repeat: no-repeat;
+}
+
+#call_button {
+    -fx-background-image: url('../image/phone.png');
+    -fx-background-size: 20 20;
+    -fx-background-position: 4 4, 4 24, 24 4, 24 24;
+}
+
+#video_button {
+    -fx-background-image: url('../image/video.png');
+    -fx-background-size: 20 20;
+    -fx-background-position: 4 4, 4 24, 24 4, 24 24;
+}
+
+#send_image {
+    -fx-background-image: url('../image/image.png');
+    -fx-background-size: 24 24;
+    -fx-background-position: 4 4, 4 28, 28 4, 28 28;
+}
+
+#send_voice {
+    -fx-background-image: url('../image/mic.png');
+    -fx-background-size: 24 24;
+    -fx-background-position: 4 4, 4 28, 28 4, 28 28;
+}
+
+#send_message {
+    -fx-background-color: lightgray;
+    -fx-background-image: url('../image/send.png');
+    -fx-background-size: 24 24;
+    -fx-background-position: 4 4, 4 28, 28 4, 28 28;
+}
